@@ -18,7 +18,7 @@ import { viteStaticCopy } from 'vite-plugin-static-copy';
 // };
 
 export default defineConfig({
-	base: '/openwebui/'
+	base: '/openwebui/',
 	plugins: [
 		sveltekit(),
 		viteStaticCopy({
